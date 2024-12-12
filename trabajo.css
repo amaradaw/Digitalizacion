@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpapers.com/images/hd/coquette-z7g866zr50wqtz0v.jpg'); /* Agrega el punto y coma aquí */
+    background-size: cover;  /* Esto hará que la imagen cubra todo el fondo */
+    background-position: center; /* Esto centrará la imagen */
+    color: #333; /* Eliminar el doble punto y coma */
+}
+
+h1, h2 {
+    color: #000000; /* Blanco */
+    text-align: center;
+}
+
+header {
+    background-color: #fda5b2; /* Rosa pastel fuerte */
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: #FFFFFF; /* Blanco */
+    border: 1px solid #FFB6C1; /* Rosa pastel fuerte */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF69B4; /* Rosa fuerte */
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+    background-color: #FFFFFF; /* Blanco */
+    border: 1px solid #FFB6C1; /* Rosa pastel fuerte */
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.contacto h2 {
+    color: #FF69B4; /* Rosa fuerte */
+    text-align: center;
+}
+
+.metodo-contacto {
+    margin-bottom: 15px;
+}
+
+.metodo-contacto h3 {
+    color: #FFB6C1; /* Rosa pastel fuerte */
+    margin-bottom: 5px;
+}
+
+.metodo-contacto p {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilos para la sección de información del vendedor */
+.informacion-vendedor {
+    background-color: #FFFFFF; /* Blanco */
+    border: 1px solid #FFB6C1; /* Rosa pastel fuerte */
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.informacion-vendedor h2 {
+    color: #FF69B4; /* Rosa fuerte */
+    text-align: center;
+}
+
+.informacion-vendedor p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #FFB6C1; /* Rosa pastel fuerte */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #FFFFFF;
+}
